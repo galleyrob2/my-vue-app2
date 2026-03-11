@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 
-gem 'rack-cors'           # Allow Vue to call the API
-gem 'jsonapi-serializer'  # Clean JSON response shaping
-gem 'bcrypt'              # Password hashing (if adding auth)
-gem 'jwt'                 # Token auth (optional)
+gem "rack-cors"           # Allow Vue to call the API
+gem "jsonapi-serializer"  # Clean JSON response shaping
+gem "bcrypt"              # Password hashing (if adding auth)
+gem "jwt"                 # Token auth (optional)
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 8.1.2"

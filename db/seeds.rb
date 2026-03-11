@@ -8,7 +8,7 @@ posts = [
   { title: "Docker for Developers", body: "Docker is a platform for developing, shipping, and running applications in containers.", category: "DevOps" },
   { title: "Introduction to JWT Auth", body: "JSON Web Tokens are an open standard for securely transmitting information between parties as a JSON object.", category: "Security" },
   { title: "Ruby on Rails Best Practices", body: "Following best practices in Rails helps keep your codebase clean, maintainable and scalable.", category: "Rails" },
-  { title: "Deploying with Kamal", body: "Kamal is a deployment tool from the Rails team that makes zero-downtime deploys simple.", category: "DevOps" },
+  { title: "Deploying with Kamal", body: "Kamal is a deployment tool from the Rails team that makes zero-downtime deploys simple.", category: "DevOps" }
 ]
 
 posts.each do |post|
