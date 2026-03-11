@@ -36,3 +36,4 @@ class PostsControllerTest < ActionDispatch::IntegrationTest
     assert_response :no_content
   end
 end
+
