@@ -60,7 +60,7 @@ onMounted(() => store.dispatch('posts/fetchPosts'))
               <th @click="toggleSort('title')">
                 Title <span class="sort-icon">{{ sortIcon('title') }}</span>
               </th>
-              <th>Body</th>
+              <th>Content</th>
               <th @click="toggleSort('created_at')">
                 Date <span class="sort-icon">{{ sortIcon('created_at') }}</span>
               </th>
