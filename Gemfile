@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 
-gem 'rack-cors'           # Allow Vue to call the API
-gem 'jsonapi-serializer'  # Clean JSON response shaping
-gem 'bcrypt'              # Password hashing (if adding auth)
-gem 'jwt'                 # Token auth (optional)
+gem "rack-cors"           # Allow Vue to call the API
+gem "jsonapi-serializer"  # Clean JSON response shaping
+gem "bcrypt"              # Password hashing (if adding auth)
+gem "jwt"                 # Token auth (optional)
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 8.1.2"
@@ -48,7 +48,7 @@ group :development, :test do
   gem "bundler-audit", require: false
 
   # Static analysis for security vulnerabilities [https://brakemanscanner.org/]
-  gem "brakeman", require: false
+  gem "brakeman", "~> 8.0.4", require: false
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
