@@ -6,7 +6,7 @@ gem "bcrypt"              # Password hashing (if adding auth)
 gem "jwt"                 # Token auth (optional)
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 8.1.2"
+gem "rails", "~> 8.1.3"
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
 # Use the Puma web server [https://github.com/puma/puma]
